@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+#pragma warning disable
+
 namespace CppNet
 {
     public class JavaFile : VirtualFile

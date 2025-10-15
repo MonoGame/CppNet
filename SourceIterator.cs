@@ -15,6 +15,8 @@
  * permissions and limitations under the License.
  */
 
+#pragma warning disable
+
 using System;
 using System.Collections.Generic;
 using System.IO;

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using boolean = System.Boolean;
 //using Set = System.Collections.Generic.HashSet;
 //using ArrayList = System.Collections.Generic.List;
 //using Map = System.Collections.Generic.Dictionary;
@@ -40,7 +39,7 @@ namespace CppNet
 
         public static string toString(this object o)
         {
-            return o.ToString();
+            return o?.ToString() ?? "";
         }
     }
 
@@ -54,7 +53,7 @@ namespace CppNet
             _list = list;
         }
 
-        public boolean hasNext()
+        public bool hasNext()
         {
             return _index < _list.Count;
         }
@@ -82,7 +81,7 @@ namespace CppNet
 
     public interface Iterator<T>
     {
-        boolean hasNext();
+        bool hasNext();
         T next();
         void remove();
     }
