@@ -24,7 +24,7 @@ using System.Text;
 namespace CppNet {
 
 /** Does not handle digraphs. */
-public class LexerSource : Source {
+internal class LexerSource : Source {
     static bool isJavaIdentifierStart(int c) {
         return char.IsLetter((char)c) || c == '$' || c == '_';
     }

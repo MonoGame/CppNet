@@ -63,7 +63,7 @@ is what the flags mean:
     wrapped in an implicit extern "C" block.
 */
 
-public class Preprocessor : IDisposable {
+internal class Preprocessor : IDisposable {
     private class InternalSource : Source {
         public override Token token()
         {

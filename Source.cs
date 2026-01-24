@@ -37,7 +37,7 @@ namespace CppNet
      *
      * BUG: Error messages are not handled properly.
      */
-    public abstract class Source : Iterable<Token>, Closeable
+    internal abstract class Source : Iterable<Token>, Closeable
     {
         private Source parent;
         private boolean autopop;

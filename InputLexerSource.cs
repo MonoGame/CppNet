@@ -34,7 +34,7 @@ import static org.anarres.cpp.Token.*;
  *
  * @see Source
  */
-public class InputLexerSource extends LexerSource {
+internal class InputLexerSource extends LexerSource {
 	/**
 	 * Creates a new Source for lexing the given Reader.
 	 *

@@ -26,7 +26,7 @@ namespace CppNet {
  *
  * @see Source
  */
-public class FileLexerSource : LexerSource {
+internal class FileLexerSource : LexerSource {
 	// private File	file;
 	private String	path;
 

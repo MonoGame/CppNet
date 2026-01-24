@@ -22,7 +22,7 @@ namespace CppNet
      * Warning classes which may optionally be emitted by the Preprocessor.
      */
     [Flags]
-    public enum Warning
+    internal enum Warning
     {
         NONE = 0,
         TRIGRAPHS = 1 << 0,

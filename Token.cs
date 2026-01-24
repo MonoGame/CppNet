@@ -27,7 +27,7 @@ namespace CppNet {
  *
  * @see Preprocessor
  */
-    public sealed class Token
+    internal sealed class Token
     {
         // public const int	EOF        = -1;
 

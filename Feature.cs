@@ -23,7 +23,7 @@ namespace CppNet
      * Features of the Preprocessor, which may be enabled or disabled.
      */
     [Flags]
-    public enum Feature
+    internal enum Feature
     {
         NONE = 0,
         /** Supports ANSI digraphs. */
