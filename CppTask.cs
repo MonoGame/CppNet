@@ -31,7 +31,7 @@ import org.anarres.cpp.Token;
 /**
  * An ant task for jcpp.
  */
-public class CppTask extends Task {
+internal class CppTask extends Task {
 
 	private static class Macro {
 		private String name;

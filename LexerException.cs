@@ -23,7 +23,7 @@ namespace CppNet {
  *
  * Note to users: I don't really like the name of this class. S.
  */
-public class LexerException : Exception {
+internal class LexerException : Exception {
     public LexerException(String msg) : base(msg) { }
 
 	public LexerException(Exception cause) : base(cause.Message, cause) {}

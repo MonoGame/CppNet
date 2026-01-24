@@ -23,7 +23,7 @@ namespace CppNet
     /**
      * A virtual filesystem implementation using java.io.
      */
-    public class JavaFileSystem : VirtualFileSystem
+    internal class JavaFileSystem : VirtualFileSystem
     {
 
 

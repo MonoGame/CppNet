@@ -32,7 +32,7 @@ import static org.anarres.cpp.Token.*;
  * @see Preprocessor
  * @see Reader
  */
-public class CppReader extends Reader {
+internal class CppReader extends Reader {
 
 	private Preprocessor	cpp;
 	private String			token;

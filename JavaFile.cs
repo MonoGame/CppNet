@@ -9,7 +9,7 @@ using System.IO;
 
 namespace CppNet
 {
-    public class JavaFile : VirtualFile
+    internal class JavaFile : VirtualFile
     {
         string _path;
 

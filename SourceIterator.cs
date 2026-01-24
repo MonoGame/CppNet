@@ -30,7 +30,7 @@ namespace CppNet
      * An Iterator for {@link Source Sources},
      * returning {@link Token Tokens}.
      */
-    public class SourceIterator : Iterator<Token>
+    internal class SourceIterator : Iterator<Token>
     {
         private Source source;
         private Token tok;

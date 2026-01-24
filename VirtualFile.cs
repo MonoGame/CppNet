@@ -20,7 +20,7 @@ namespace CppNet {
 /**
  * An extremely lightweight virtual file interface.
  */
-public interface VirtualFile {
+internal interface VirtualFile {
 	// public String getParent();
 	bool isFile();
 	string getPath();

@@ -21,7 +21,7 @@ namespace CppNet
     /**
      * An extremely lightweight virtual file system interface.
      */
-    public interface VirtualFileSystem
+    internal interface VirtualFileSystem
     {
         VirtualFile getFile(String path);
         VirtualFile getFile(String dir, String name);

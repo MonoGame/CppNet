@@ -69,24 +69,24 @@ namespace CppNet
         }
     }
 
-    public interface Closeable
+    internal interface Closeable
     {
         void close();
     }
 
-    public interface Iterable<T>
+    internal interface Iterable<T>
     {
         Iterator<T> iterator();
     }
 
-    public interface Iterator<T>
+    internal interface Iterator<T>
     {
         bool hasNext();
         T next();
         void remove();
     }
 
-    public class IllegalStateException : Exception
+    internal class IllegalStateException : Exception
     {
         public IllegalStateException(Exception ex) : base("Illegal State", ex) { }
     }

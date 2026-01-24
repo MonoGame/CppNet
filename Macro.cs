@@ -30,7 +30,7 @@ namespace CppNet
      * for replacement. The replacement token stream may contain the
      * extra tokens {@link Token#M_ARG} and {@link Token#M_STRING}.
      */
-    public class Macro
+    internal class Macro
     {
         private Source source;
         private String name;

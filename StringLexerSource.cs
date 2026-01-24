@@ -28,7 +28,7 @@ namespace CppNet {
  * This class is used by token pasting, but can be used by user
  * code.
  */
-public class StringLexerSource : LexerSource
+internal class StringLexerSource : LexerSource
 {
     private readonly string filename;
 	/**

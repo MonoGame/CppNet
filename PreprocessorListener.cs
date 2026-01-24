@@ -28,7 +28,7 @@ namespace CppNet {
      * error and warning events will throw an exception. Installing a
      * listener allows more intelligent handling of these events.
      */
-    public interface PreprocessorListener
+    internal interface PreprocessorListener
     {
         /**
          * Handles a warning.
